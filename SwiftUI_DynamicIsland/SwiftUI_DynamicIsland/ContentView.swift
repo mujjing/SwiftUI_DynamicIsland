@@ -8,7 +8,7 @@ import UserNotifications
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("In App Push Notifications\nUsing Dynamic Island")
+            Text("다이나믹 아일랜드 테스트\nDynamic Island Test")
                 .font(.title)
                 .fontWeight(.semibold)
                 .lineSpacing(12)

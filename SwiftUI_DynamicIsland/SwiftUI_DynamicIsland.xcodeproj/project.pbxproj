@@ -11,6 +11,7 @@
 		DB2D62732920E5AA007AD481 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D62722920E5AA007AD481 /* ContentView.swift */; };
 		DB2D62752920E5AB007AD481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2D62742920E5AB007AD481 /* Assets.xcassets */; };
 		DB2D62782920E5AB007AD481 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2D62772920E5AB007AD481 /* Preview Assets.xcassets */; };
+		DB2D62802920F510007AD481 /* NotificationValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2D627F2920F510007AD481 /* NotificationValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DB2D62722920E5AA007AD481 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB2D62742920E5AB007AD481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB2D62772920E5AB007AD481 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB2D627F2920F510007AD481 /* NotificationValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DB2D626F2920E5AA007AD481 /* SwiftUI_DynamicIsland */ = {
 			isa = PBXGroup;
 			children = (
+				DB2D627E2920F4EC007AD481 /* Model */,
 				DB2D62702920E5AA007AD481 /* SwiftUI_DynamicIslandApp.swift */,
 				DB2D62722920E5AA007AD481 /* ContentView.swift */,
 				DB2D62742920E5AB007AD481 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				DB2D62772920E5AB007AD481 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB2D627E2920F4EC007AD481 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB2D627F2920F510007AD481 /* NotificationValue.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB2D62732920E5AA007AD481 /* ContentView.swift in Sources */,
+				DB2D62802920F510007AD481 /* NotificationValue.swift in Sources */,
 				DB2D62712920E5AA007AD481 /* SwiftUI_DynamicIslandApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
